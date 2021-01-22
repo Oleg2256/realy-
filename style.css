@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+    margin: 0;
+}
+.go{
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    background-color: black
+}
+.f{
+    position: relative;
+    width: 40%;
+    height: 10%;
+    top: 40vh;
+    /* vertical-align: middle; */
+    text-align: center;
+    margin: 0 auto;
+    background-color: #000000;
+    animation: a 2s infinite;
+    transition: 10s;
+    border: 4px solid black;
+    box-shadow: 0 0 50px blue
+}
+@keyframes a{
+    25%{border-bottom: 4px solid blue;}
+    50%{border-right: 4px solid blue;}
+    75%{border-top: 4px solid blue;}
+    100%{border-left: 4px solid blue;}
+}
+a{
+    position: relative;
+    top: 3vh;
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: blue;
+}
+.f:hover{
+    background-color: white;
+    animation: 0s;
+    background-color: white;
+    box-shadow: 0 0 50px white;
+}
+.f:focus{
+    background-color: white;
+    animation: 0s;
+    background-color: white;
+    box-shadow: 0 0 50px white;
+}
