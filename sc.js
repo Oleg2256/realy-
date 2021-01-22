@@ -1,0 +1,18 @@
+b1.onclick=function(){
+    if(document.getElementById('body').style.backgroundColor=="black"){
+        document.getElementById('body').style.backgroundColor="white";
+        document.getElementById('textt').style.backgroundColor="black";
+        document.getElementById('tt').style.backgroundColor="black";
+        document.getElementById('b1').style.backgroundColor="black";
+        document.getElementById('b1').style.left="0%";
+        document.getElementById('foot').style.backgroundColor="gray"
+    }
+    else{
+        document.getElementById('body').style.backgroundColor="black";
+        document.getElementById('textt').style.backgroundColor="black";
+        document.getElementById('tt').style.backgroundColor="black";
+        document.getElementById('b1').style.backgroundColor="white";
+        document.getElementById('b1').style.left="50%";
+        document.getElementById('foot').style.backgroundColor="white"
+    }
+}
